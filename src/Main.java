@@ -10,6 +10,7 @@
  */
 
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class Main {
     public static void main(String[] args) {
@@ -36,22 +37,40 @@ public class Main {
 //        System.out.println("y: " + y);
 
     ////////////////////////////////////////////// USER INPUT ////////////////////////////////////////////////////
-        Scanner scanner = new Scanner(System.in); //imported above class
-
-        System.out.println("What is your name? ");
-        String name = scanner.nextLine();
-        System.out.println("How old are you? ");
-        int age = scanner.nextInt();
-        scanner.nextLine(); //clears our scanner
-        System.out.println("What is your favorite food? ");
-        String food = scanner.nextLine();
-
-        System.out.println("Hello " + name);
-        System.out.println("You are " + age + " years old");
-        System.out.println("You like " + food);
+//        Scanner scanner = new Scanner(System.in); //imported above class
+//
+//        System.out.println("What is your name? ");
+//        String name = scanner.nextLine();
+//        System.out.println("How old are you? ");
+//        int age = scanner.nextInt();
+//        scanner.nextLine(); //clears our scanner
+//        System.out.println("What is your favorite food? ");
+//        String food = scanner.nextLine();
+//
+//        System.out.println("Hello " + name);
+//        System.out.println("You are " + age + " years old");
+//        System.out.println("You like " + food);
 
     ///////////////////////////////////////// EXPRESSIONS //////////////////////////////////////////////////
+//        // expression = operands and operators
+//        // operands = values, variables, numbers, quantity
+//        // operators = + - * / %
+//
+//        double friends = 10;
+//
+//        friends = (double) friends / 3;
+//
+//        System.out.println(friends);
 
+    //////////////////////// GUI(GRAPHICAL USER INTERFACE) APPLICATION /////////////////////////////////
+//        String name = JOptionPane.showInputDialog("Enter your name");
+//        JOptionPane.showMessageDialog(null, "Hello " + name);
+//
+//        int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
+//        JOptionPane.showMessageDialog(null, "You are " + age + " years old");
+//
+//        double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
+//        JOptionPane.showMessageDialog(null, "You are " + height + " cm tall");
 
     }
 }
