@@ -11,10 +11,11 @@
 
 import java.util.Scanner;
 import javax.swing.JOptionPane;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-    //////////////////////////////////////// VARIABLES ///////////////////////////////////////////////////
+    ////////////////////////////////////////////// VARIABLES ///////////////////////////////////////////////////////
 //        int a = 123;
 //        float b = 3.14f; // floats for storing numbers with decimals. must follow number with f.
 //        boolean c = true;
@@ -24,7 +25,7 @@ public class Main {
 //
 //        System.out.println(name);
 
-    ///////////////////////////////////////// SWAPPING VARIABLES //////////////////////////////////////////
+    //////////////////////////////////////////////// SWAPPING VARIABLES //////////////////////////////////////////////
 //        String x = "water";
 //        String y = "Kool-Aid";
 //        String temp;
@@ -36,7 +37,7 @@ public class Main {
 //        System.out.println("x: " + x);
 //        System.out.println("y: " + y);
 
-    ////////////////////////////////////////////// USER INPUT ////////////////////////////////////////////////////
+    //////////////////////////////////////////////// USER INPUT ///////////////////////////////////////////////////////
 //        Scanner scanner = new Scanner(System.in); //imported above class
 //
 //        System.out.println("What is your name? ");
@@ -51,7 +52,7 @@ public class Main {
 //        System.out.println("You are " + age + " years old");
 //        System.out.println("You like " + food);
 
-    ///////////////////////////////////////// EXPRESSIONS //////////////////////////////////////////////////
+    ////////////////////////////////////////////// EXPRESSIONS ////////////////////////////////////////////////////////
 //        // expression = operands and operators
 //        // operands = values, variables, numbers, quantity
 //        // operators = + - * / %
@@ -62,8 +63,8 @@ public class Main {
 //
 //        System.out.println(friends);
 
-    //////////////////////// GUI(GRAPHICAL USER INTERFACE) APPLICATION /////////////////////////////////
-//        String name = JOptionPane.showInputDialog("Enter your name");
+    /////////////////////////////// GUI(GRAPHICAL USER INTERFACE) APPLICATION /////////////////////////////////////////
+//        String name = JOptionPane.showInputDialog("Enter your name"); //JOptionPane imported above class
 //        JOptionPane.showMessageDialog(null, "Hello " + name);
 //
 //        int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
@@ -71,6 +72,47 @@ public class Main {
 //
 //        double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
 //        JOptionPane.showMessageDialog(null, "You are " + height + " cm tall");
+
+    //////////////////////////////////////////////////// MATH CLASS ///////////////////////////////////////////////////
+//        double x = 3.14;
+//        double y = -10;
+//        double z = 5;
+//
+//        double max = Math.max(x, y); // finds max number btwn the variables, min() finds min number
+//        double absolute = Math.abs(y); // finds absolute value(number without negative sign)
+//        double squared = Math.sqrt(z); // finds square root
+//        double round = Math.round(x); // rounds number
+//        double ceiling = Math.ceil(x); // always rounds up
+//        double floor = Math.floor(x); // always rounds down
+//
+//        System.out.println(floor);
+
+    //////////////////////////////////// FUNCTION TO FIND HYPOTENUSE OF TRIANGLE //////////////////////////////////////
+//        double x;
+//        double y;
+//        double z;
+//
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("Enter side x: ");
+//        x = scanner.nextDouble();
+//        System.out.println("Enter side y: ");
+//        y = scanner.nextDouble();
+//
+//        z = Math.sqrt((x * x) + (y * y));
+//
+//        System.out.println("The hypotenuse is: " + z);
+
+    /////////////////////////////////////////////// RANDOM NUMBERS ////////////////////////////////////////////////////
+//        Random random = new Random(); // Random imported above class. Not true random numbers, they are pseudo random numbers(close enough)
+//
+//        int integerRandom = random.nextInt(6) + 1; // gives us random number btwn 1-6. added "+ 1" because index starts at 0
+//        double doubleRandom = random.nextDouble(); // gives us random value between 0-1
+//        boolean booleanRandom = random.nextBoolean();
+//
+//        System.out.println(integerRandom);
+
+
 
     }
 }
