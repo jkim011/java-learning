@@ -126,7 +126,8 @@ public class Main {
 //        }
 
     /////////////////////////////////////////////// SWITCHES //////////////////////////////////////////////////////////
-        // switch = statement that allows a variable to be tested for equality against a list of values. better than a long string of if statements
+        // switch = statement that allows a variable to be tested for equality against a list of values. better than a
+            // long string of if statements
 
 //        String day = "pizza";
 //
