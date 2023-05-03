@@ -287,7 +287,19 @@ public class Main {
 //        }
 
     ///////////////////////////////////// STRING METHODS //////////////////////////////////////////////////////////////
-
+//        String name = "   Jared";
+//
+//        //boolean result = name.equals("Jared");
+//        //int result = name.length();
+//        //char result = name.charAt(1);
+//        //int result = name.indexOf("J");
+//        //boolean result = name.isEmpty();
+//        //String result = name.toUpperCase();
+//        //String result = name.toLowerCase();
+//        //String result = name.trim();
+//        //String result = name.replace("a", "e");
+//
+//        System.out.println(result);
 
     }
 }
