@@ -301,5 +301,35 @@ public class Main {
 //
 //        System.out.println(result);
 
+    /////////////////////////////////////// WRAPPER CLASSES ///////////////////////////////////////////////////////////
+        // wrapper class = provides a way to use primitive data types as reference data types.
+        //                 reference data types contain useful methods
+        //                 can be used with collections (ex: ArrayList)
+        //
+        // Primitive          Wrapper        *primitive values are a lot faster
+        //-----------        ----------
+        // boolean            Boolean
+        // char               Character
+        // int                Integer
+        // double             Double
+        //
+        // autoboxing = automatic conversion that Java compiler makes btwn primitive types and their corresponding
+        //              object wrapper classes
+        // unboxing = reverse of autoboxing. Automatic conversion of wrapper class to primitive
+
+        Boolean a = true;
+        Character b = '@';
+        Integer c = 123;
+        Double d = 3.14;
+        String e = "Jared";
+
+        if(a==true) {
+            System.out.println("This is true");
+        }
+
+    ///////////////////////////////////////// ArrayList ///////////////////////////////////////////////////////////////
+
+
+
     }
 }
