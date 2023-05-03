@@ -177,7 +177,7 @@ public class Main {
 //        }
 
     /////////////////////////////////// WHILE LOOP ////////////////////////////////////////////////////////////////////
-//        // while loop = executes a block of code as long as it's condition remains true
+//        // while loop = executes a block of code as long as it's condition remains true. could theoretically go on forever
 //
 //        Scanner scanner = new Scanner(System.in);
 //        String name = "";
@@ -195,6 +195,46 @@ public class Main {
 //        System.out.println("Hello " + name);
 
     ///////////////////////////// FOR LOOPS ////////////////////////////////////////////////////////////////////////////
+//        // for loop = executes a block of code a limited amount of times
+//
+//        for(int i = 0; i <= 10; i++) { // will iterate 11 times because index counts from 0
+//            System.out.println(i);     // counts up
+//        }
+//
+//        for(int i = 10; i >= 0; i--) { // counts down
+//            System.out.println(i);
+//        }
+//
+//        for(int i = 10; i >= 0; i-=2) { // counts down by 2s
+//            System.out.println(i);
+//        }
+//
+//        System.out.println("Happy new year!");
+
+    /////////////////////////////////////// NESTED LOOPS //////////////////////////////////////////////////////////////
+//        // nested loops = a loop inside of a loop. can be any combination of while loops, for loops, do loops
+//
+//        Scanner scanner = new Scanner(System.in);
+//
+//        int rows;
+//        int columns;
+//        String symbol = "";
+//
+//        System.out.println("Enter # of rows: ");
+//        rows = scanner.nextInt();
+//        System.out.println("Enter # of columns: ");
+//        columns = scanner.nextInt();
+//        System.out.println("Enter symbol to use: ");
+//        symbol = scanner.next();
+//
+//        for(int i=1; i<=rows; i++) {
+//            System.out.println();
+//            for(int j=1; j<=columns; j++) {
+//                System.out.print(symbol); // must be print not println so it breaks out of the loop
+//            }
+//        }
+
+    //////////////////////////////////////////// ARRAYS ///////////////////////////////////////////////////////////////
 
 
     }
