@@ -9,9 +9,11 @@
    for you, but you can always add more by pressing Ctrl+F8.
  */
 
+import java.util.ArrayList;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 import java.util.Random;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -302,34 +304,111 @@ public class Main {
 //        System.out.println(result);
 
     /////////////////////////////////////// WRAPPER CLASSES ///////////////////////////////////////////////////////////
-        // wrapper class = provides a way to use primitive data types as reference data types.
-        //                 reference data types contain useful methods
-        //                 can be used with collections (ex: ArrayList)
-        //
-        // Primitive          Wrapper        *primitive values are a lot faster
-        //-----------        ----------
-        // boolean            Boolean
-        // char               Character
-        // int                Integer
-        // double             Double
-        //
-        // autoboxing = automatic conversion that Java compiler makes btwn primitive types and their corresponding
-        //              object wrapper classes
-        // unboxing = reverse of autoboxing. Automatic conversion of wrapper class to primitive
+//        // wrapper class = provides a way to use primitive data types as reference data types.
+//        //                 reference data types contain useful methods
+//        //                 can be used with collections (ex: ArrayList)
+//        //
+//        // Primitive          Wrapper        *primitive values are a lot faster
+//        //-----------        ----------
+//        // boolean            Boolean
+//        // char               Character
+//        // int                Integer
+//        // double             Double
+//        //
+//        // autoboxing = automatic conversion that Java compiler makes btwn primitive types and their corresponding
+//        //              object wrapper classes
+//        // unboxing = reverse of autoboxing. Automatic conversion of wrapper class to primitive
+//
+//        Boolean a = true;
+//        Character b = '@';
+//        Integer c = 123;
+//        Double d = 3.14;
+//        String e = "Jared";
+//
+//        if(a==true) {
+//            System.out.println("This is true");
+//        }
 
-        Boolean a = true;
-        Character b = '@';
-        Integer c = 123;
-        Double d = 3.14;
-        String e = "Jared";
+    ///////////////////////////////////////// ARRAYLIST ///////////////////////////////////////////////////////////////
+//        // ArrayList = a resizeable array. Elements can be added and removed after compilation phase. stores only reference data types
+//
+//        ArrayList<String> food = new ArrayList<String>();  // imported java.util.ArrayList
+//
+//        food.add("pizza");
+//        food.add("burger");
+//        food.add("hotdog");
+//
+//        food.set(0, "sushi"); // sets new value in provided index
+//        food.remove(2); // removes provided index
+//        food.clear(); // clears entire array list
+//
+//        for(int i=0; i<food.size(); i++) {
+//            System.out.println(food.get(i));
+//        }
 
-        if(a==true) {
-            System.out.println("This is true");
-        }
+    ////////////////////////////////////////// 2D ARRAYLIST ////////////////////////////////////////////////////////////
+//        // 2D ArrayList = a dynamic set of lists. can change the size of these lists during runtime
+//        // imported java.util.*
+//
+//        ArrayList<ArrayList<String>> groceryList = new ArrayList(); // 2D ArrayList containing list of all the other arrays
+//
+//        ArrayList<String> bakeryList = new ArrayList();
+//        bakeryList.add("pasta");
+//        bakeryList.add("garlic bread");
+//        bakeryList.add("donuts");
+//
+//        ArrayList<String> produceList = new ArrayList();
+//        produceList.add("tomato");
+//        produceList.add("onion");
+//        produceList.add("peppers");
+//
+//        ArrayList<String> drinksList = new ArrayList();
+//        drinksList.add("soda");
+//        drinksList.add("coffee");
+//
+//        groceryList.add(bakeryList); // Adding the other arrays into our groceryList 2D Array
+//        groceryList.add(produceList); //
+//        groceryList.add(drinksList); //
+//
+//        System.out.println(groceryList);
+//        System.out.println(groceryList.get(0));
+//        System.out.println(groceryList.get(0).get(2));
 
-    ///////////////////////////////////////// ArrayList ///////////////////////////////////////////////////////////////
+    ///////////////////////////////////// FOR EACH LOOP ///////////////////////////////////////////////////////////////
+//        // for-each = traversing technique to iterate thru the elements in an array/collection
+//        //            it's less steps and more readable, but it's less flexible
+//
+//        ArrayList<String> animals = new ArrayList<String>();
+//
+//        animals.add("cat");
+//        animals.add("dog");
+//        animals.add("rat");
+//        animals.add("bird");
+//
+//        for(String i : animals) {
+//            System.out.println(i);
+//        }
 
-
-
+    ///////////////////////////////////////////// METHODS /////////////////////////////////////////////////////////////
+//        // method = a block of code that is executed wheever it is called upon
+//        //          kinda like javascript functions
+//        //          must be called outside main class
+//
+//        String name = "Jared";
+//        int age = 21;
+//        hello(name, age);
+//
+//        int x = 3;
+//        int y = 4;
+//        System.out.println(add(x, y));
     }
+//    static void hello(String name, int age) { // for parameters u dont have to keep names of values consistent. could change name to anything
+//        System.out.println("Hello " + name);
+//        System.out.println("You are " + age);
+//    }
+//
+//    static int add(int x, int y) {
+//        int z = x + y;
+//        return z;
+//    }
 }
