@@ -235,6 +235,28 @@ public class Main {
 //        }
 
     //////////////////////////////////////////// ARRAYS ///////////////////////////////////////////////////////////////
+//        String[] cars = {"Camaro", "Corvette", "Tesla"};
+//        cars[0] = "Mustang";
+//        System.out.println(cars[0]);
+//        System.out.println(cars[1]);
+//        System.out.println(cars[2]);
+//                                     //                   ^
+//        System.out.println();        // Two ways to do it |  |
+//                                     //                      v
+//        String[] languages = new String[3];
+//        languages[0] = "JavaScript";
+//        languages[1] = "HTML";
+//        languages[2] = "CSS";
+//        System.out.println(languages[0]);
+//        System.out.println(languages[1]);
+//        System.out.println(languages[2]);
+//
+//        System.out.println();
+//
+//        for(int i=0; i<cars.length; i++) { // using for loop to print array
+//            System.out.println(cars[i]);
+//        }
+
 
 
     }
