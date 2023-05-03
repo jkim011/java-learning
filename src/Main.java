@@ -257,6 +257,36 @@ public class Main {
 //            System.out.println(cars[i]);
 //        }
 
+    ////////////////////////////////////////// 2D ARRAYS ///////////////////////////////////////////////////////////////
+//        // 2D array = an array of arrays
+//
+//        String [][] cars = new String[3][3];
+//        cars[0][0] = "Camaro";
+//        cars[0][1] = "Mustang";
+//        cars[0][2] = "Charger";
+//        cars[1][0] = "GTR";
+//        cars[1][1] = "WRX";
+//        cars[1][2] = "Supra";
+//        cars[2][0] = "Lambo";
+//        cars[2][1] = "Ferrari";
+//        cars[2][2] = "Pagani";
+//                                     //                             ^
+//        System.out.println();        // Two ways to write 2D arrays |  |
+//                                     //                                v
+//        String [][] foods = {
+//                {"Galbi", "Bulgogi", "Kimchi"},
+//                {"Taco", "Fajita", "Burrito"},
+//                {"Burger", "Hotdog", "Pizza"}
+//        };
+//
+//        for(int i=0; i<cars.length; i++) {  // using nested loop to print 2D array of cars
+//            System.out.println();
+//            for(int j=0; j<cars[i].length; j++) {
+//                System.out.print(cars[i][j] + " ");
+//            }
+//        }
+
+    ///////////////////////////////////// STRING METHODS //////////////////////////////////////////////////////////////
 
 
     }
