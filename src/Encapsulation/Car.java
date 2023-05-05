@@ -10,6 +10,9 @@
 //        this.setModel(model);  // for setters
 //        this.setYear(year);
 //    }
+//    Car(Car x) { // Calls upon copy function at bottom to put it in effect as soon as new car is created
+//        this.copy(x);
+//    }
 //
 //    public String getMake() {  //
 //        return make;
@@ -34,4 +37,12 @@
 //    public void setYear(int year) {
 //        this.year = year;
 //    }                                   //
+//
+///////////////////////////////////////// COPYING OBJECTS////////////////////////////////////////////////////////////////
+//    public void copy(Car x) {
+//        this.setMake(x.getMake());
+//        this.setModel(x.getModel());
+//        this.setYear(x.getYear());
+//    }
+//
 //}
