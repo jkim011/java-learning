@@ -1,8 +1,9 @@
-//package FileClass;
-//
-//import java.io.File;
-//public class fileclass {
-//    public static void main(String[] args) {
+package FileClass;
+
+import java.io.*;
+
+public class fileclass {
+    public static void main(String[] args) {
 //        // file = an abstract representation of file and directory pathnames
 //
 //        File file = new File("C:/Users/Admin/OneDrive/Desktop/secret_message.TXT");
@@ -17,6 +18,37 @@
 //        else {
 //            System.out.println("That file doesn't exist :(");
 //        }
+
+//    /////////////////////////////////////////// FileWriter /////////////////////////////////////////////////////////
+//        try {
+//            FileWriter writer = new FileWriter("poem.txt");
+//            writer.write("Roses are red \nViolets are blue");
+//            writer.append("\n(A poem by Jared)");
+//            writer.close();
+//        }
+//        catch (IOException e) {
+//            e.printStackTrace();
+//        }
+
+//    ////////////////////////////////////////////// FileReader /////////////////////////////////////////////////////////
+//        // FileReader = read the contents of a file as a stream of characters. One by one read() returns an int value which contains the byte value.
+//        //              when read() returns -1, there is no more data to be read
 //
-//    }
-//}
+//        try {
+//            FileReader reader = new FileReader("art.TXT");
+//            int data = reader.read();
+//            while(data != -1) {
+//                System.out.print((char)data);
+//                data = reader.read();
+//            }
+//            reader.close();
+//        }
+//        catch (FileNotFoundException e) {
+//            e.printStackTrace();
+//        }
+//        catch (IOException e) {
+//            e.printStackTrace();
+//        }
+
+    }
+}
