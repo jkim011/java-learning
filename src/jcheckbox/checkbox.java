@@ -1,6 +1,6 @@
-//package jtextbox;
+//package jcheckbox;
 //
-//public class textbox {
+//public class checkbox {
 //    public static void main(String[] args) {
 //        // JCheckBox = a GUI component that can be selected or deselected
 //

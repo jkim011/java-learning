@@ -1,4 +1,4 @@
-//package jtextbox;
+//package jcheckbox;
 //
 //import javax.swing.*;
 //import java.awt.*;
